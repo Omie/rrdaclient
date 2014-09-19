@@ -17,7 +17,17 @@ This library (rrdaclient) provides Go bindings to consume this API
 
 ## How to use
 
-`go get github.com/omie/rrdaclient`
+    //get library
+    $ go get github.com/omie/rrdaclient
+
+    //import library
+    import github.com/omie/rrdaclient
+
+    //call functions
+    response = rrdaclient.GetHostAddress("<input>")
+
+    //Response is of type *rrdaclient.APIResponse
+    //and the structure resembles the RRDA JSON schema
 
 
 ## Further Reading
